@@ -7,7 +7,9 @@ namespace TechJobsOO
         private static int nextId = 1;
         private string value;
 
-        // TODO: Change the fields to auto-implemented properties.
+        // DONE - TODO: Change the fields to auto-implemented properties.
+        public int Id { get; set; }
+        public string Value { get; set; }
 
         public CoreCompetency()
         {
