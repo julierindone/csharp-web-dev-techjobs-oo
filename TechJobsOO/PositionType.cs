@@ -1,7 +1,7 @@
 ﻿using System;
 namespace TechJobsOO
 {
-    public class PositionType
+    public class PositionType : JobField
     {
         public int Id { get; }
         private static int nextId = 1;

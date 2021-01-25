@@ -1,19 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
 namespace TechJobsOO
 {
-    public class Employer : JobField
+    public abstract class JobField
     {
-       /* public int Id { get; }                                ////remove these!
+        public int Id { get; }
+
         private static int nextId = 1;
-        public string Value { get; set; }*/
 
+        public string Value { get; set; }
 
-
-        public Employer(string value) : base(value)      //////constructor
+        public JobField()                   ///////constructor #1
         {
+            Id = nextId;
+            nextId++;
         }
 
-        /*public override bool Equals(object obj)         ////// method    ////////// remove
+        public JobField(string value) : this()
+        {
+            Value = value;
+        }
+
+        public override bool Equals(object obj)         ////// method
         {
             return obj is Employer employer &&
                    Id == employer.Id;
@@ -27,6 +37,8 @@ namespace TechJobsOO
         public override string ToString()               //////method
         {
             return Value;
-        }*/
+        }
+
+
     }
 }
