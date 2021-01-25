@@ -12,7 +12,7 @@ namespace TechJobsOO
 
         public string Value { get; set; }
 
-        public JobField()                   ///////constructor #1
+        public JobField()                       ///////constructor 
         {
             Id = nextId;
             nextId++;
