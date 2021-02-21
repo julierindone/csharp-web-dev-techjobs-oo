@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace TechJobsOO
 {
     public class Job
