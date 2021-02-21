@@ -39,7 +39,7 @@ namespace TechJobsOO
         {
             return HashCode.Combine(Id);
         }
-               
+
         public override string ToString() //use conditionals to set defaults
         {
 

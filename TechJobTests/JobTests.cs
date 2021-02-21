@@ -1,6 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using TechJobsOO;    //why isn't it recognizing this?
+using TechJobsOO;
 
 namespace TechJobsTests
 {
